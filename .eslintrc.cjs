@@ -7,11 +7,12 @@ module.exports = {
     'plugin:import/typescript',
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
+    'prettier',
   ],
   settings: {
     react: {
-      version: "detect"
-    }
+      version: 'detect',
+    },
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -19,7 +20,7 @@ module.exports = {
     sourceType: 'module',
     project: ['./tsconfig.json'],
   },
-  ignorePatterns: ["*.cjs"],
+  ignorePatterns: ['*.cjs'],
   overrides: [
     {
       files: ['vite.*.ts'],
@@ -50,4 +51,4 @@ module.exports = {
     'react/self-closing-comp': 1,
     'react-refresh/only-export-components': 1,
   },
-}
+};

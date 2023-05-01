@@ -7,6 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --check .",
+    "format:fix": "prettier -w .",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -24,10 +26,12 @@
     "@vitejs/plugin-react": "^4.0.0",
     "eslint": "^8.38.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.3.4",
     "postcss-styled-syntax": "^0.4.0",
+    "prettier": "^2.8.8",
     "stylelint": "^15.6.0",
     "stylelint-config-recommended": "^12.0.0",
     "stylelint-config-styled-components": "^0.1.1",

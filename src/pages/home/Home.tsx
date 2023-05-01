@@ -8,9 +8,7 @@ import SmallViteIcon from './components/SmallViteIcon';
 
 const Home = () => (
   <PageBody>
-    <Header>
-      Web application template
-    </Header>
+    <Header>Web application template</Header>
     <Main>
       <MainMessage>Hello world!</MainMessage>
       <AnimatedIcon>
@@ -21,7 +19,8 @@ const Home = () => (
       </AnimatedIcon>
     </Main>
     <footer>
-      Source code available at <a href="https://github.com/ntdesmond/styled-react-ts-vite">GitHub</a>!
+      Source code available at{' '}
+      <a href="https://github.com/ntdesmond/styled-react-ts-vite">GitHub</a>!
     </footer>
   </PageBody>
 );

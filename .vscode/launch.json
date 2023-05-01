@@ -5,14 +5,9 @@
       "type": "node",
       "request": "launch",
       "name": "Launch project",
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "skipFiles": ["<node_internals>/**"],
       "runtimeExecutable": "npm",
-      "args": [
-        "run",
-        "dev"
-      ]
+      "args": ["run", "dev"]
     }
   ]
 }
