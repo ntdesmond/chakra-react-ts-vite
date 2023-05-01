@@ -7,11 +7,11 @@ import { StrictMode } from 'react';
 const root = createRoot(document.getElementById('root') as HTMLElement);
 root.render(
   <StrictMode>
-  <HashRouter>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="*" element={<Navigate to="/" />} />
-    </Routes>
-  </HashRouter>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+    </HashRouter>
   </StrictMode>,
 );
