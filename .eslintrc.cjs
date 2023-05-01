@@ -20,7 +20,7 @@ module.exports = {
     sourceType: 'module',
     project: ['./tsconfig.json'],
   },
-  ignorePatterns: ['*.cjs'],
+  ignorePatterns: ['*.cjs', 'dist/', 'build/'],
   overrides: [
     {
       files: ['vite.*.ts'],
